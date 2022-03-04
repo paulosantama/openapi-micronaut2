@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: openapi-micronaut2
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
